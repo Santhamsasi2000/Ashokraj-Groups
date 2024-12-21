@@ -59,3 +59,23 @@
        height: 200px;
     }
 }
+
+.home-img
+{
+    height: 300px;
+}
+
+@media all and (max-width: 500px)
+{
+    .home-img
+    {
+       height: 250px;
+    }
+}
+@media all and (max-width: 400px)
+{
+    .home-img
+    {
+       height: 200px;
+    }
+}

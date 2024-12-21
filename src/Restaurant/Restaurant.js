@@ -16,12 +16,12 @@ const Restaurant = () => {
         </div>
         <div className='col-lg-6'>
           <ul>
-              <li className='mb-2 fw-semibold fs-5'>Best vegetarian and non-vegetarian restaurant in Kalayarkovil, Sivaganga.</li>
-              <li className='mb-2 fw-semibold fs-5'>Best restaurants in Kalayarkovil, Sivaganga.</li>
-              <li className='mb-2 fw-semibold fs-5'>Ashokraj Restaurant near me.</li>
-              <li className='mb-2 fw-semibold fs-5'>Family restaurants in Kalayarkovil, Sivaganga.</li>
-              <li className='mb-2 fw-semibold fs-5'>Pure vegetarian restaurants in Kalayarkovil, Sivaganga.</li>
-              <li className='mb-2 fw-semibold fs-5'>Popular restaurants for tourists in Kalayarkovil, Sivaganga.</li>
+              <li className='mb-2 fw-semibold'>Best vegetarian and non-vegetarian restaurant in Kalayarkovil, Sivaganga.</li>
+              <li className='mb-2 fw-semibold'>Best restaurants in Kalayarkovil, Sivaganga.</li>
+              <li className='mb-2 fw-semibold'>Ashokraj Restaurant near me.</li>
+              <li className='mb-2 fw-semibold'>Family restaurants in Kalayarkovil, Sivaganga.</li>
+              <li className='mb-2 fw-semibold'>Pure vegetarian restaurants in Kalayarkovil, Sivaganga.</li>
+              <li className='mb-2 fw-semibold'>Popular restaurants for tourists in Kalayarkovil, Sivaganga.</li>
           </ul>
           <a href="tel:8508525062" className='btn common-button fw-bold px-4 py-2 mt-3'>Order Now</a>
         </div>
