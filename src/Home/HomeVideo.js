@@ -24,7 +24,7 @@ const HomeVideo = () => {
         loop
         className="w-100 object-fit-cover rounded-3"
       />
-      <p
+ <p
         onClick={handlePlayPause}
         style={{
           position: 'absolute',

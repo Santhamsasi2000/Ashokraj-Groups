@@ -1,13 +1,13 @@
 import React, { Suspense } from 'react';
-import HomeVideo from "./HomeVideo";
 import HomeImage from './HomeImage';
 import "./Home.css";
+import VideoFile from './VideoFile';
 
 const Home = () => {
   return (
     <section className='home'>
       <Suspense>
-        <HomeVideo/>
+        <VideoFile/>
         <HomeImage/>
       </Suspense>
     </section>

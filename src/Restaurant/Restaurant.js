@@ -23,7 +23,7 @@ const Restaurant = () => {
               <li className='mb-2 fw-semibold fs-5'>Pure vegetarian restaurants in Kalayarkovil, Sivaganga.</li>
               <li className='mb-2 fw-semibold fs-5'>Popular restaurants for tourists in Kalayarkovil, Sivaganga.</li>
           </ul>
-            <button className='btn common-button fw-bold px-4 py-2'>ORDER NOW</button>
+          <a href="tel:8508525062" className='btn common-button fw-bold px-4 py-2 mt-3'>Order Now</a>
         </div>
       </div>
 

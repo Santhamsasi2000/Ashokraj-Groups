@@ -4,10 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from "./NavBar";
-import NewNavs from "./Common/NavBar/NewNavs";
-import Home from "./Home/Home";
+import VideoFile from "./Home/VideoFile";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

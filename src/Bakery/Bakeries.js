@@ -12,7 +12,7 @@ const Bakeries = () => {
   return (
     <section className='common-bg'>
            <p className='common-title text-center fs-3 fw-bold pt-3'>ASHOKRAJ BAKERY</p>
-           <div className='row mx-3 mt-4 mb-5'>
+           <div className='row mx-3 mt-2 mb-5'>
              <div className='col-lg-6 mb-3 mb-lg-0'>
                <img src='/images/Restaurant/1.JPG' alt='No-Image' className='bakery-img rounded-4 w-100'/> 
              </div>
@@ -20,7 +20,7 @@ const Bakeries = () => {
                <p className='fs-5'>Ashokraj Bakery, located in the heart of KalayarKovil, Sivaganga<span className='d-none d-sm-inline'>, is your one-stop destination for delightful treats and snacks</span>. Renowned for its mouthwatering chaat, traditional sweets, freshly baked cakes, and crispy savouries, the bakery also offers a variety of fresh fruits and refreshing juices.
                 <span className='d-none d-xl-inline'>Whether you're craving something sweet, savory, or simply looking for a quick snack, Ashokraj Bakery has something for everyone.Visit us to experience quality, taste, and freshness in every bite!</span>
               </p>
-              <button className='btn common-button fw-bold px-4 py-2'>ORDER NOW</button>
+              <a href="tel:7708675225" className='btn common-button fw-bold px-4 py-2 mt-3'>Order Now</a>
              </div>
            </div>
            <ul className='m-0 bakery-btn d-flex justify-content-center align-items-center flex-wrap gap-3 gap-md-5 p-5'>

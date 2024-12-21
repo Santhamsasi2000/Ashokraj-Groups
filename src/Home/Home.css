@@ -32,3 +32,30 @@
     border-radius: 5px;
     text-align: center;
 }
+
+.video
+{
+  height: 600px;
+}
+
+@media all and (max-width: 768px)
+{
+    .video
+    {
+       height: 400px;
+    }
+}
+@media all and (max-width: 500px)
+{
+    .video
+    {
+       height: 300px;
+    }
+}
+@media all and (max-width: 400px)
+{
+    .video
+    {
+       height: 200px;
+    }
+}
