@@ -1,0 +1,86 @@
+export const GravyData = [
+  {
+    id: 1,
+    name: "Egg Masala",
+    image: "/images/AshokRajNv/Dinner/SideDish/Egg-Masala.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 2,
+    name: "Prawn Gravy",
+    image: "/images/AshokRajNv/Dinner/SideDish/Prawn-Gravy.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 3,
+    name: "Mutton Gravy",
+    image: "/images/AshokRajNv/Dinner/SideDish/Mutton-Gravy.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 4,
+    name: "Kudal",
+    image: "/images/AshokRajNv/Lunch/SideDish/kudal-curry.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 5,
+    name: "Chettinaadu Chicken",
+    image: "/images/AshokRajNv/Dinner/SideDish/Chettinaadu-Chicken.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 6,
+    name: "Ginger Chicken",
+    image: "/images/AshokRajNv/Dinner/SideDish/Ginger-Chicken.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 7,
+    name: "Chicken Manchurian",
+    image: "/images/AshokRajNv/Dinner/SideDish/Chicken-Manchurian.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 8,
+    name: "Garlic Chicken",
+    image: "/images/AshokRajNv/Dinner/SideDish/Garlic-Chicken.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 9,
+    name: "Chicken Gravy",
+    image: "/images/AshokRajNv/Dinner/SideDish/Pepper-Gravy.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 10,
+    name: "Hot Pepper Chicken Gravy",
+    image: "/images/AshokRajNv/Dinner/SideDish/Pepper-Gravy.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 11,
+    name: "Naatu Kozhli Gravy",
+    image: "/images/AshokRajNv/Dinner/SideDish/Nattu-Gravy.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 12,
+    name: "Butter Chicken Masala",
+    image: "/images/AshokRajNv/Dinner/SideDish/Butter-Chicken.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 13,
+    name: "Chili Chicken (Bone or Bone-Less)",
+    image: "/images/AshokRajNv/Lunch/SideDish/Chicken 65.jpg",
+    number: 8508525062,
+  },
+  {
+    id: 14,
+    name: "Pepper Chicken (Bone or Bone-Less)",
+    image: "/images/AshokRajNv/Dinner/SideDish/Pepper-Chicken.jpg",
+    number: 8508525062,
+  },
+];

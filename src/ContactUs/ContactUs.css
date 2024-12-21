@@ -1,0 +1,76 @@
+.contact-bg
+{
+    max-width: 400px;
+}
+
+.title-address
+{
+    color:#2274a5;
+}
+
+.contact-title
+{
+    color: #2274a5;
+}
+
+form
+{
+    max-width: 600px;
+}
+
+@media screen  and (max-width: 480px)
+{
+    .contact .send-btn
+    {
+        padding: 10px 112px !important;
+    }
+}
+
+.input-box .field
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.input-box .mess
+{
+    height: 200px;
+    resize: none;
+}
+
+.label-color
+{
+  color: #126596;
+}
+
+.title-color
+{
+    color:#2274a5;
+}
+
+.border-color
+{
+   border-color: #2274a5 !important;
+}
+
+.send-btn
+{
+    background-color: #2274a5;
+}
+
+@media all and (max-width:465px)
+{
+    .contact
+    {
+        margin-left: 0px !important;
+    }
+}
+
+@media all and (max-width:350px)
+{
+    .email
+    {
+       font-size: 12px !important;
+    }
+}

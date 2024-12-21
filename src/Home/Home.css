@@ -1,0 +1,34 @@
+.home
+{
+    background-color: #e0e2db;
+}
+
+.text-color
+{
+    color: #3d348b;
+}
+
+.main-img
+{
+    position: relative;
+    /* width: 100%; */
+}
+
+.main-img img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.link-text 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}

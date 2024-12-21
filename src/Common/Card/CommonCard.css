@@ -1,0 +1,32 @@
+.food-items
+{
+    width: 300px;
+}
+.order-now
+{
+    /* background-color: #ff5c62; */
+    background-color:#e6af2e;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+/* .order-now:hover
+{
+    box-shadow:  -300px 0 0 red inset;
+} */
+
+div .title-color
+{
+    color: #ff5c62;
+}
+
+.finish-line
+{
+    border: 10px dashed #8B8000;
+    width: 100%;
+}
+
+.single-receipe
+{
+    height: 150px;
+}

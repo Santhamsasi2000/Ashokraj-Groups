@@ -1,0 +1,42 @@
+.footer
+{
+    /* background-color: #e6af2e; */
+    background-color: #3d348b;
+}
+
+.navcolor
+{
+    /* color:  black; */
+    /* color: white; */
+    color: #3d348b;
+}
+
+.connect
+{
+   color: #107341;
+}
+
+.footer .border-color
+{
+    /* border-color: black !important; */
+    /* color: black; */
+    color: #3d348b;;
+    border: none !important;
+}
+
+.media-icons
+{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .title-color
+{
+    color:black;
+}
+
+.footer-color
+{
+    color: #e0e2db;
+}
