@@ -28,8 +28,8 @@ const Restaurant = () => {
       </div>
 
       <ul className='m-0 d-flex justify-content-center gap-3 gap-md-5 py-4 ps-0'> 
-        <NavLink to="veg" className='button-color text-white text-decoration-none border-0 px-sm-5 px-3 py-sm-3 py-2 rounded-2 fw-bold fs-6 text-center'>ASHOK BHAVAN</NavLink>
-        <NavLink to="non-veg" className='button-color text-white text-decoration-none border-0 px-sm-5 px-3 py-sm-3 py-2 rounded-2 fw-bold fs-6  text-center'>ASHOKRAJ</NavLink>
+        <NavLink to="/restaurant/veg" className='button-color text-white text-decoration-none border-0 px-sm-5 px-3 py-sm-3 py-2 rounded-2 fw-bold fs-6 text-center'>ASHOK BHAVAN</NavLink>
+        <NavLink to="/restaurant/non-veg" className='button-color text-white text-decoration-none border-0 px-sm-5 px-3 py-sm-3 py-2 rounded-2 fw-bold fs-6  text-center'>ASHOKRAJ</NavLink>
       </ul>
 
       {/* Suspense for nested routes */}
