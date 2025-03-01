@@ -13,71 +13,15 @@ const NewNav = () => {
           <i className='fas fa-bars'></i>
        </label>
 
-       {/* <NavLink to="/" className='logo text-uppercase fs-3 fw-bold text-decoration-none'>AshokRaj</NavLink> */}
-       <img src='/images/Logo.jpeg' className='logo ms-md-5'/>
-       {/* Overlay for background dimming */}
-      {/* <div className="overlay"></div> */}
-
+       <NavLink to="/" className='logo'>AshokRaj</NavLink>
+       
        <ul className="nav-list mb-0">
-       <li>
-           <NavLink 
-             to="/" 
-             activeClassName="active" 
-             onClick={handleNavClick}
-             className="fw-semibold"
-           >
-             Home
-           </NavLink>
-      </li>
-         {/* <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Restaurant
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Ashok Bhavan</a></li>
-            <li><a class="dropdown-item" href="#">Ashok Raj</a></li>
-          </ul>
-         </li> */}
-          <li>
-           <NavLink 
-             to="/restaurant" 
-             activeClassName="active" 
-             onClick={handleNavClick}
-             className="fw-semibold"
-           >
-             Restaurant
-           </NavLink>
-         </li>
-         <li>
-           <NavLink 
-             to="/bakery" 
-             activeClassName="active" 
-             onClick={handleNavClick}
-             className="fw-semibold"
-           >
-             Bakery
-           </NavLink>
-         </li>
-         <li>
-           <NavLink 
-             to="/lodge" 
-             activeClassName="active" 
-             onClick={handleNavClick}
-             className="fw-semibold"
-           >
-             Lodge
-           </NavLink>
-         </li>
-         <li>
-           <NavLink 
-             to="/contact" 
-             activeClassName="active" 
-             onClick={handleNavClick}
-             className="fw-semibold"
-           >
-             Contact Us
-           </NavLink>
-         </li>
+        <li><NavLink to="/" activeClassName="active" onClick={handleNavClick} className="fw-semibold">Home</NavLink></li>
+        <li><NavLink to="/vegetarian" activeClassName="active" onClick={handleNavClick} className="fw-semibold">VEG RESTAURANT</NavLink></li> 
+        <li><NavLink to="/non-vegetarian" activeClassName="active" onClick={handleNavClick} className="fw-semibold">RESTAURANT</NavLink></li>  
+        <li><NavLink to="/bakery" activeClassName="active" onClick={handleNavClick} className="fw-semibold">BAKERY</NavLink></li>
+        <li><NavLink to="/lodge" activeClassName="active" onClick={handleNavClick} className="fw-semibold">LODGE</NavLink></li>
+        <li><NavLink to="/contact" activeClassName="active" onClick={handleNavClick} className="fw-semibold">CONTACT</NavLink></li>
        </ul>
     </nav>
   );

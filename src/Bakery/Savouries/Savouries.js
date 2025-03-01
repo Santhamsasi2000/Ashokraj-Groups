@@ -14,7 +14,7 @@ const Savouries = () => {
 
   return (
     <>
-      <div className="d-flex flex-wrap justify-content-center gap-5 py-5">
+      <div className="bg-white p-3 p-sm-5 d-flex flex-wrap justify-content-center gap-5">
         {savouries}
       </div>
     </>

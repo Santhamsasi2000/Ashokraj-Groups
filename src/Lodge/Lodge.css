@@ -38,7 +38,12 @@
 
 .room-header
 {
-  background-color:#f4e9b7;
+  background-color:#a7affa;
+}
+
+.room-btn
+{
+  background-color: #6c66ee;
 }
 
 .two-rooms img

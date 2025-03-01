@@ -1,0 +1,11 @@
+.email:hover
+{
+  color:  #7a4219 !important;
+  text-decoration: underline !important;
+}
+
+.contact-border
+{
+    border: 3px solid #e6af2e;
+    border-radius: 5px;
+}

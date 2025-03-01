@@ -13,7 +13,7 @@ const Cake = () => {
   ));
   return (
     <>
-      <div className="d-flex flex-wrap justify-content-center gap-5 py-5">
+      <div className="bg-white d-flex flex-wrap justify-content-center gap-5 p-3 p-sm-5">
         {cakes}
       </div>
       {/* <ul style={{marginLeft:"300px"}}>

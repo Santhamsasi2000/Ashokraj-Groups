@@ -13,14 +13,14 @@ const Footer = () => {
 
   return (
     <div className='footer d-flex flex-column align-items-center py-2'>
-      <p className='footer-color fw-bold fs-4 text-uppercase'>Connect with us</p>
+      <p className='common-title'>Connect with us</p>
       <SocialMedia/>
       <button 
         onClick={handleContactClick}
         className='border border-2 border-color home px-4 py-2 rounded-2 fw-bold fs-6 text-uppercase mt-4 text-decoration-none'>
         Location
       </button>
-      <p className='mt-3 fw-semibold footer-color'>Developed by &nbsp;<a href={`tel:6384379814`} className='text-uppercase text-white'>POGO Web Solutions</a></p>
+      
     </div>
   );
 }

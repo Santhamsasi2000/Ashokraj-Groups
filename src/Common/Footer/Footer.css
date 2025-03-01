@@ -1,14 +1,11 @@
 .footer
 {
-    /* background-color: #e6af2e; */
-    background-color: #3d348b;
+    background-color: #e6af2e;
 }
 
 .navcolor
 {
-    /* color:  black; */
-    /* color: white; */
-    color: #3d348b;
+    color: #3d1c0b !important;
 }
 
 .connect
@@ -18,9 +15,7 @@
 
 .footer .border-color
 {
-    /* border-color: black !important; */
-    /* color: black; */
-    color: #3d348b;;
+    color: #3d1c0b;
     border: none !important;
 }
 
@@ -33,10 +28,10 @@
 
 .footer .title-color
 {
-    color:black;
+    color: #3d1c0b;
 }
 
 .footer-color
 {
-    color: #e0e2db;
+    color: #3d1c0b;
 }

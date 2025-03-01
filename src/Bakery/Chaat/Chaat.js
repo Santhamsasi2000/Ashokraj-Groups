@@ -7,7 +7,7 @@ import Sandwich from "./Sandwich/Sandwich";
 
 const Chaat = () => {
   return (
-    <>
+    <section className="bg-white p-3 p-sm-5">
       <p className='text-center fw-bold fs-3 mt-5 mb-3 text-decoration-underline text-uppercase sub-title'>Pani Puri</p>
       <PaniPuri />
       <hr className='mt-5 finish-line'/>
@@ -25,7 +25,7 @@ const Chaat = () => {
       <hr className='mt-5 finish-line'/>
       <p className='text-center fw-bold fs-3 mt-5 mb-3 text-decoration-underline text-uppercase sub-title'>Others</p>
       <Chaats/>
-    </>
+    </section>
   );
 };
 

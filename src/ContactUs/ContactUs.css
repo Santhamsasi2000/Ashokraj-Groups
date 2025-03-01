@@ -5,12 +5,12 @@
 
 .title-address
 {
-    color:#2274a5;
+    color: #3d348b;
 }
 
 .contact-title
 {
-    color: #2274a5;
+    color: #3d348b;
 }
 
 form
@@ -41,30 +41,32 @@ form
 
 .label-color
 {
-  color: #126596;
+  color: #b87416;
 }
+
+.standard-select
+{
+    background-color: #e0e2db;
+}
+
 
 .title-color
 {
-    color:#2274a5;
+    color: #3d348b;
 }
 
 .border-color
 {
-   border-color: #2274a5 !important;
+   border-color: #d6971c !important;
 }
 
 .send-btn
 {
-    background-color: #2274a5;
-}
-
-@media all and (max-width:465px)
-{
-    .contact
-    {
-        margin-left: 0px !important;
-    }
+    background-color: #b87416;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 5px;
+    color: white !important;
 }
 
 @media all and (max-width:350px)

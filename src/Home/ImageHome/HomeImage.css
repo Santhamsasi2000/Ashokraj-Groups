@@ -1,0 +1,47 @@
+.home-img
+{
+    height: 300px;
+}
+
+@media all and (max-width: 500px)
+{
+    .home-img
+    {
+       height: 250px;
+    }
+}
+@media all and (max-width: 400px)
+{
+    .home-img
+    {
+       height: 200px;
+    }
+}
+
+.border-img
+{
+    border-color: #d1b573 !important;
+}
+
+.bg-img
+{
+    background-color:#d1b573!important;
+}
+
+.btn-color
+{
+    background-color: #fcf8ea;
+    border:none;
+}
+
+.btn-color:hover
+{
+   background-color: #f9f0c8;
+   transition: 0.5s;
+}
+
+.btn-color:active
+{
+   background-color: #f4df94;
+   transition: 0.5s;
+}
