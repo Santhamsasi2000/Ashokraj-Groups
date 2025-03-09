@@ -1,0 +1,55 @@
+.text-color
+{
+    color: #3d348b;
+}
+
+.main-img
+{
+    position: relative;
+}
+
+.main-img img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.link-text 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.video
+{
+  height: 600px;
+}
+
+@media all and (max-width: 768px)
+{
+    .video
+    {
+       height: 400px;
+    }
+}
+@media all and (max-width: 500px)
+{
+    .video
+    {
+       height: 300px;
+    }
+}
+@media all and (max-width: 400px)
+{
+    .video
+    {
+       height: 200px;
+    }
+}

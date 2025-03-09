@@ -1,0 +1,84 @@
+.restaurant-bg
+{
+    background-color: #fdf8ef;
+}
+
+.restaurant-title
+{
+    color: #8a4222;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.restaurant-subTitle
+{
+    color: #6f371f;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.restaurant-downarrow
+{
+    color: #d06926;
+    font-size: 30px;
+    text-align: center;
+}
+
+.restaurant-btn
+{
+    color: #ac5122;
+    border: 2px solid#ac5122;
+    text-decoration: none;
+    padding: 5px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.restaurant-btn:hover
+{
+    border: 3px solid#ac5122;
+}
+
+.restaurant-btn.active
+{
+    color: white;
+    background-color:#ac5122;
+    border: none;
+    padding: 5px 15px;
+}
+
+/* restaurant-menu */
+.restaurant-items-btn
+{
+    background-color: #d06926;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.restaurant-items-btn:hover
+{
+    background-color: #ac5122;
+    transition: 0.5s;
+}
+
+.restaurant-items-btn:active
+{
+    background-color: #8a4222;
+    transition: 0.5s;
+}
+
+.restaurant-horizontalLine
+{
+    border: 10px dashed #8a4222;
+    width: 100%;
+}
+
+

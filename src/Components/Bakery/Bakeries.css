@@ -1,0 +1,108 @@
+.bakery-bg
+{
+    background-color: #f2f5fc;
+}
+
+.bakery-title
+{
+    color: #3b4da2;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.bakery-subTitle
+{
+   color: #323b76;
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+.bakery-downarrow
+{
+    color: #394194;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bakery-btn
+{
+    color:  #3d56b8;
+    border: 2px solid #3d56b8;
+    text-decoration: none;
+    padding: 5px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.bakery-btn:hover
+{
+    color: white;
+    background-color: #3d56b8;
+    border: none;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+.bakery-btn.active
+{
+    color: white;
+    background-color: #3d56b8;
+    border: none;
+    padding: 5px 15px;
+    transition: 0.5s;
+}
+
+/* Menu-Items */
+
+.bakery-items-bg
+{
+    background-color: #faf5f9;
+}
+
+.bakery-items-title
+{
+    color: #93437a;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.bakery-items-btn
+{
+    background-color: #c173b0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.bakery-items-btn:hover
+{
+    background-color: #ac5694;
+    transition: 0.5s;
+}
+
+.bakery-items-btn:active
+{
+    background-color: #93437a;
+    transition: 0.5s;
+}
+
+.bakery-horizontalLine
+{
+    border: 10px dashed #93437a;
+    width: 100%;
+}
+
+
+
+
+
+

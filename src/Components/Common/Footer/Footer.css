@@ -1,0 +1,37 @@
+.footer
+{
+    background-color: #e6af2e;
+}
+
+.navcolor
+{
+    color: #3d1c0b !important;
+}
+
+.connect
+{
+   color: #107341;
+}
+
+.footer .border-color
+{
+    color: #3d1c0b;
+    border: none !important;
+}
+
+.media-icons
+{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .title-color
+{
+    color: #3d1c0b;
+}
+
+.footer-color
+{
+    color: #3d1c0b;
+}

@@ -4,12 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import EasyNav from "./Components/NavBar/EasyNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-        <App/>
+      <App/>
+      {/* <EasyNav/> */}
     </React.StrictMode>
   </BrowserRouter>
 );

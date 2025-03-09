@@ -1,0 +1,29 @@
+/* Direction.css */
+.direction
+{
+    height: 350px;
+}
+/* 
+@media  all and (max-width:900px) 
+{
+    .direction
+    {
+        height: 300px;
+    }
+}
+
+@media  all and (max-width:750px) 
+{
+    .direction
+    {
+        height: 200px;
+    }
+} */
+
+@media  all and (max-width:450px) 
+{
+    .direction
+    {
+        height: 250px;
+    }
+}

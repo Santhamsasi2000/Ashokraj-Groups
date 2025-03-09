@@ -1,66 +1,27 @@
 .common-bg
 {
-    background-color: #e0e2db;
+    background-color: #e4bddd;
 }
 
 .common-title
 {
-    color: #3d348b !important;
+    color:#7a4219;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
-.common-button
+.common-subTitle
 {
-    color: #e0e2db !important;
-    background-color: #3d348b !important;
+    color: #b87416;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-
-ul .button-color
+.text-justify
 {
-    background-color:#e7eb90;
-    color:  black !important;
-}
-
-ul .button-color:hover,.button-color.active
-{
-    background-color:  #fadf63;    
-    color:  black !important;
-}
-
- .nonVeg
-{
-    background-color:  #e7eb90;
-    color: #2274a5 !important;
-}
-
-.nonVeg:hover,.nonVeg.active
-{  
-    background-color:  #fadf63;
-    color: #632b30 !important;
-} 
-
-p
-{
-    margin-bottom: 0;    
-}
-
-.button-color
-{
-    background-color: #e6af2e;
-}
-
-.button-shade
-{
-  /* background-color: #f5dce0; */
-  background-color:#f7e9a9;
-}
-
-.highlight-color
-{
-    color: #2274a5;
-}
-
-.sub-title
-{
-  color:#c3b306;
+    text-align: justify;
 }

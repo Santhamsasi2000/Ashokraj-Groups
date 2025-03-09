@@ -1,0 +1,177 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Logo */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+nav
+{
+    font-family: "Montserrat", sans-serif;
+    height: 80px;
+    width: 100%;
+    background-color:  #3d348b;
+    /* background-color:#e6af2e; */
+}
+
+.logo 
+{
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 900;
+  color: #eef1ff;
+  font-family: "IBM Plex Sans", serif !important; 
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav .nav-list
+{
+  float: right;
+  margin-right: 50px;
+}
+
+nav .nav-list li 
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+} 
+
+nav .nav-list li a
+{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav .nav-list li a:hover
+{
+  background-color: #6c66ee;
+  transition: .5s;
+}
+
+ nav .nav-list li a.active 
+{
+  background-color:#e1e5fe;
+  transition: .5s;
+  color:#3d348b;
+}
+
+.checkbtn 
+{
+  font-size: 30px;
+  color: #eef1ff;
+  float: right;
+  line-height: 80px;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+#check 
+{
+  display: none;
+}
+
+@media (max-width: 1214px) 
+{
+  .logo 
+  {
+    padding-left: 30px;
+  }
+
+  nav .nav-list li a 
+  {
+    font-size: 16px;
+  }
+}
+
+/* Responsive media query code for small screen */
+@media (max-width: 1115px) 
+{
+  .checkbtn 
+  {
+    display: block;
+  }
+
+  .nav-list
+  {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:  #3d348b;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav .nav-list li 
+  {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav .nav-list li a 
+  {
+    font-size: 20px;
+  }
+
+  nav .nav-list li a:hover
+  {
+    background-color: #6c66ee;
+    transition: .5s;
+  }
+  
+   nav .nav-list li a.active 
+  {
+    background-color:#e1e5fe;
+    transition: .5s;
+    color:#3d348b;
+  }
+
+
+  #check:checked~ul 
+  {
+    left: 0;
+  }
+}
+
+/* Add this to your CSS */
+/* .overlay 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+  display: none;
+} */
+
+#check:checked ~ .overlay 
+{
+  display: block;
+}
+
+#check:checked ~ ul {
+  z-index: 2; /* Ensure menu sits above the overlay */
+}
+
+@media all and (max-width: 576px)
+{
+  .logo
+  {
+    height:40px;
+    margin-top: 20px;
+  }
+  .checkbtn 
+ {
+  font-size: 25px;
+}
+}

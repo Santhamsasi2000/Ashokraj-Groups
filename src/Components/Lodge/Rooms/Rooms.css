@@ -1,0 +1,52 @@
+.rooms-bg
+{
+    background-color: #efefef;
+}
+
+.rooms-title
+{
+    color:  #656568;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.rooms-subTitle
+{
+    color: #353536;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.separate-title
+{
+  background-color: #c7c7c9;
+  color: #353536;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+.rooms-btn
+{
+    background-color: #888789;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+}
+
+.rooms-btn:hover
+{
+    background-color: #79797c;
+    transition: 0.5s;
+}
+
+.rooms-btn:active
+{
+    background-color: #656568;
+    transition: 0.5s;
+}

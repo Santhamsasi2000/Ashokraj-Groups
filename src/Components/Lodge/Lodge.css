@@ -1,0 +1,91 @@
+.lodge
+{
+    background-color: #e0e2db;
+}
+
+.lodge-title
+{
+  color: #3d348b;
+}
+
+/* lodge */
+.icon-1
+{
+  color:#60a5fa;
+  background-color:#dbeafe;
+}
+.icon-2
+{
+  color:#f472b6;
+  background-color:#fce7f3;
+}
+.icon-3
+{
+  color:#c084fc;
+  background-color:#f3e8ff;
+}
+
+.icon-4
+{
+  color:#fb7185;
+  background-color:#ffe4e6;
+}
+
+.two-rooms
+{
+  width: 350px;
+}
+
+.room-header
+{
+  background-color:#a7affa;
+}
+
+.room-btn
+{
+  background-color: #6c66ee;
+}
+
+.two-rooms img
+{
+  height: 200px;
+}
+
+.two-rooms .hovereffect  img 
+{
+  -webkit-transition:all .4s linear;
+  transition:all .4s linear;
+}
+
+.two-rooms .hovereffect:hover img 
+{
+  -ms-transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+  
+
+@media only screen and (max-width:979px)
+{
+    .rooms
+  {
+    margin-left:10px;
+  }
+}
+
+@media only screen and (max-width:350px)
+{
+  .rooms .rooms-title
+  {
+    font-size: 19px !important;
+  }
+}
+
+/* Minihall.css */
+.mini-img
+{
+  height: 25px !important;
+  width: 25px;
+}
+
+/*  */
