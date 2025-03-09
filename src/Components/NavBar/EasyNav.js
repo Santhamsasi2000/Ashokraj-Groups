@@ -11,12 +11,14 @@ const closeNavbar = () => {
 
 const EasyNav = () => {
   return (
-    <nav className="navbar navbar-expand-lg px-3 px-sm-4">
+    <nav className="navbar navbar-expand-xl px-3 px-sm-4">
       <div className="container-fluid">
-        <img src="/images/NavBar/Logo.webp" style={{width:"100px",height:"100px"}}/>
-        <NavLink className="navbar-brand common-title" to="/">
-          {navbarTitle}
-        </NavLink>
+        <div className="d-flex align-items-center">
+          <img src="/images/NavBar/Logo.webp" style={{width:"100px",height:"100px"}}/>
+          <NavLink className="navbar-brand" to="/">
+            {navbarTitle}
+          </NavLink>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -33,27 +35,15 @@ const EasyNav = () => {
             {/* Home */}
             <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/" onClick={closeNavbar}>
-                Home
+                HOME
               </NavLink>
             </li>
 
             {/* Restaurant */}
-            <li className="nav-item dropdown">
-              <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Restaurant
-              </span>
-              <ul className="dropdown-menu">
-                <li>
-                  <NavLink className={({ isActive }) => "dropdown-item" + (isActive ? " active" : "")} to="/vegetarian" onClick={closeNavbar}>
-                    Pure Vegetarian
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className={({ isActive }) => "dropdown-item" + (isActive ? " active" : "")} to="/non-vegetarian" onClick={closeNavbar}>
-                    Non-Vegetarian
-                  </NavLink>
-                </li>
-              </ul>
+            <li className="nav-item">
+              <NavLink className="nav-link" aria-current="page" to="/non-vegetarian" onClick={closeNavbar}>
+                RESTAURANT
+              </NavLink>
             </li>
 
             {/* Bakery */}
@@ -63,7 +53,14 @@ const EasyNav = () => {
               </NavLink>
             </li>
 
-             {/* Restaurant */}
+            {/*Veg-Restaurant */}
+            <li className="nav-item">
+              <NavLink className="nav-link" aria-current="page" to="/vegetarian" onClick={closeNavbar}>
+                VEG-RESTAURANT
+              </NavLink>
+            </li>
+
+             {/* Lodge*/}
              <li className="nav-item dropdown">
               <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 LODGE
@@ -86,7 +83,7 @@ const EasyNav = () => {
             {/* Contact */}
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact" onClick={closeNavbar}>
-                Contact
+                CONTACT
               </NavLink>
             </li>
           </ul>

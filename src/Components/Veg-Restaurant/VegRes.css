@@ -1,0 +1,75 @@
+.veg-bg
+{
+    background-color: #e9ffe4;
+}
+
+.veg-title
+{
+    color: #008000;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.veg-subTitle
+{
+    color: #0b5c0d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.veg-downarrow
+{
+    color: #008000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.veg-btn
+{
+    color: #00b800;
+    border: 2px solid #00b800;
+    text-decoration: none;
+    padding: 5px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.veg-btn:hover
+{
+    border: 3px solid #00b800;
+}
+
+.veg-btn.active
+{
+    color: white;
+    background-color: #00b800;
+    border: none;
+}
+
+/* veg-menu */
+.veg-items-btn
+{
+    background-color: #00b800;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.veg-items-btn:hover
+{
+    background-color: #008000;
+    transition: 0.5s;
+}
+
+.veg-items-btn:active
+{
+    background-color: #076d08;
+    transition: 0.5s;
+}

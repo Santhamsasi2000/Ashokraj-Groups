@@ -1,5 +1,4 @@
-import { LuPhoneCall } from "react-icons/lu";
-import { number } from "yup";
+import { IoMdCall } from "react-icons/io";
 
 const callData = [
   {
@@ -26,13 +25,13 @@ const callData = [
 const FooterContact = () => {
   return (
     <>
-       <p className='common-title text-start mb-3'>Contact Us</p>
+       <p className='footer-title mb-3'>Contact Us</p>
        {
         callData.map(({id, forWhich, number})=>(
           <div className="d-flex align-items-center mb-3 footer-contact" key={id}>
-            <p className="fw-semibold">{forWhich} <span className="line me-2">---</span></p>
-            <i className="fs-5"><LuPhoneCall /></i>
-            <a href={`tel:${number}`} className="footer-Links ms-2 text-decoration-none">{number}</a>
+            <p className="fw-semibold mb-0">{forWhich} <span className="line me-1">-</span></p>
+            <i className="fs-5"><IoMdCall /></i>
+            <a href={`tel:${number}`} className="footer-Links ms-1 text-decoration-none">{number}</a>
          </div>
         ))
        }

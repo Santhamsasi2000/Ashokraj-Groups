@@ -3,6 +3,15 @@
     background-color: #ffffff !important;
 }
 
+.navbar-brand
+{
+    color: #93437a;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
 .navbar a,.nav-link
 {
     color: #94427a !important;
@@ -39,7 +48,7 @@
 
 .navbar-toggler-icon 
 {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='violet'><path stroke='violet' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='%2393437a'><path stroke='%2393437a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
 
 @media(max-width: 370px)  

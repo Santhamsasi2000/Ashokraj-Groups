@@ -1,7 +1,15 @@
 .footer
 {
-    background-color: #e6af2e;
-    color:  #3d1c0b !important;
+    background-color: #ac5694;
+    color: #faf5f9 !important;
+}
+
+.footer-title
+{
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
 .media-icons
@@ -13,12 +21,12 @@
 
 .footer a
 {
-    color:  #3d1c0b !important;
+    color:  #faf5f9 !important;
 }
 
 .media-icons .navcolor
 {
-    color: #3c2415 !important;
+    color: #93437a !important;
 }
 
 .footer .footer-Links:hover
@@ -28,7 +36,7 @@
 
 .media-icons:hover
 {
-    background-color:bisque !important;
+    background-color: #f0daec !important;
 }
 
 @media (max-width: 405px) 
@@ -43,10 +51,26 @@
     }
 }
 
-/* @media (max-width: 350px) 
+@media (max-width:395px) 
 {
-    .footer-Links
+    .text-resize
     {
-        font-size: 10px;
+        font-size: 14px;
     }
-} */
+}
+
+@media (max-width:370px) 
+{
+    .text-resize
+    {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:360px) 
+{
+    .text-resize
+    {
+        font-size: 12px;
+    }
+}
