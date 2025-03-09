@@ -5,7 +5,6 @@ import FooterContact from './FooterContact';
 
 const Footer = () => {
   return (
-   
       <div className='mt-0 footer p-5 row gy-4 gy-sm-5 justify-content-between gx-0'>
         <div className='col-md-6 col-xl-4'>
           <p className='footer-title mb-3'>Follow Us</p>
