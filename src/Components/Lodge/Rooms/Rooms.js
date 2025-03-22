@@ -13,11 +13,14 @@ const Rooms = () => {
         {DataRoom.map(({ id, image, header }) => (
           <div className="col-sm-6 col-lg-4" key={id}>
             <div className="card border-0">
-              <LazyLoadImage
+            <LazyLoadImage
                 className="w-100"
                 src={image}
                 effect="blur"
                 threshold={200}
+                placeholderSrc="https://placehold.co/600x400"
+                srcSet={`${image.replace(".webp", "-small.webp")} 480w, ${image} 1024w`}
+                sizes="(max-width: 600px) 480px, 1024px"
               />
               <p className="separate-title mb-0">{header}</p>
               <a href={`tel:7639232333`} className="rooms-btn">
