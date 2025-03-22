@@ -4,8 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import EasyNav from "./Components/NavBar/EasyNav";
-import Home from "./Components/Home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
