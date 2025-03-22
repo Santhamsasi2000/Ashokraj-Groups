@@ -5,9 +5,9 @@ import HomeImage from './ImageHome/HomeImage';
 
 const Home = () => {
   return (
-    <section className=''>
+    <section>
       <Suspense>
-        <VideoFile/>
+        {/* <VideoFile/> */}
         <HomeImage/>
       </Suspense>
     </section>
