@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const HomeImage = () => {
   return (
-      <section className='p-3 p-sm-5'>
+      <section className='p-4 p-sm-5'>
         <p className='common-title mb-4'>WHAT ARE IN ASHOKRAJ ?</p>
         <div className='row justify-content-center gap-5'>
           {
