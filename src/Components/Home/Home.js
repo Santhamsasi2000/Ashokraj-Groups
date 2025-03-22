@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section>
       <Suspense>
-        {/* <VideoFile/> */}
+        <VideoFile/>
         <HomeImage/>
       </Suspense>
     </section>
